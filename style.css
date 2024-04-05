@@ -90,6 +90,10 @@ body {
   .nav-container {
     padding: 10px;
   }
+
+  .hero .contract-address {
+    font-size: 0.75rem !important;
+  }
 }
 
 /* Custom styles for hero section */
@@ -157,7 +161,7 @@ body {
 }
 
 .hero .contract-address {
-  font-size: 0.75rem;
+  font-size: 1.2rem;
   border: solid;
   margin: 73px auto;
   max-width: 650px;
