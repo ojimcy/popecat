@@ -62,13 +62,30 @@ body {
   }
 }
 
-@media screen and (max-width: 993px) {
-  .nav-container {
-    display: flex;
-    padding: 15px;
+@media screen and (max-width: 992px) {
+  .navbar-nav {
+    flex-direction: row;
+    /* align-items: center; */
   }
-  .nav-item {
-    display: flex !important;
+
+  .navbar-collapse {
+    text-align: center;
+    display: flex;
+  }
+
+  .navbar-nav .nav-link {
+    margin-top: 10px;
+  }
+
+  .navbar-toggler {
+    margin-bottom: 10px;
+  }
+
+  .nav-container {
+    padding: 10px;
+  }
+  .navbar-toggler {
+    display: none;
   }
 }
 
