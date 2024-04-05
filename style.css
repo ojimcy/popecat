@@ -62,6 +62,16 @@ body {
   }
 }
 
+@media screen and (max-width: 993px) {
+  .nav-container {
+    display: flex;
+    padding: 15px;
+  }
+  .nav-item {
+    display: flex !important;
+  }
+}
+
 /* Custom styles for hero section */
 .hero {
   align-items: center;
